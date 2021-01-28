@@ -1,0 +1,26 @@
+.select{
+    width: 50%;
+	height: 30px;
+	text-align: center;
+	padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid rgba(128,189,255,1);
+    margin: 20px 0 25px 0;
+    text-align: center;
+    text-align-last: center;
+}
+.select:focus{
+border: none;
+box-shadow: 5px 5px 5px rgba(128,189,255,0.5) , -5px -5px 5px rgba(128,189,255,0.5);
+}
+
+#coment_at{
+    width: 70%;
+    padding: 25px 25px;
+    resize: none;
+    border: 1px solid rgba(128,189,255,1);
+    margin: 20px 0 25px 0;
+    height: 200px;
+    font-size: 15px;
+}
+

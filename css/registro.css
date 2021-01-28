@@ -27,33 +27,27 @@
 	margin: 25px 0 0 0;
 }
 
-.at input, textarea{
+.at input{
 	border: 1px solid rgba(128,189,255,1);
-	/*box-shadow: 2px 2px 5px rgba(128,189,255,0.5) , -2px -2px 5px rgba(128,189,255,0.5);*/
 	margin: 20px 0 25px 0
 }
 
 .at input:focus, textarea:focus{
 	border: none;
-	box-shadow: 2px 2px 5px rgba(128,189,255,0.5) , -2px -2px 5px rgba(128,189,255,0.5);
+	box-shadow: 5px 5px 5px rgba(128,189,255,0.5) , -5px -5px 5px rgba(128,189,255,0.5);
 }
 
-#asunto_at::placeholder{
+.input::placeholder{
 	font-style: italic;
 }
 
-#asunto_at{
+.input{
 	width: 50%;
+	height: 30px;
 	text-align: center;
 	padding: 5px 10px;
+	font-size: 20px;
 }
-
-#coment_at{
-	width: 70%;
-	padding: 25px 25px;
-	resize: none
-}
-
 
 .cont_btn{  	/*Contenedor que guarda los botones de "enviar" y archivos*/
 	display: flex;
@@ -63,9 +57,8 @@
 }
 
 .btn_at{ 		/*estilos de los botones*/
-
 	background: rgba(38,124,181,1);
-	color: #000000;
+	color: #FFF;
 	font-weight: bold;
 	font-size: 1rem;
 	border: none;
@@ -73,20 +66,15 @@
 	width: 25%;
 	padding: 2.5% 2%;
 	margin: 75px 0 0 0;
-	/*box-shadow: 3px 3px 10px rgba(0,0,0,0.5) , -3px -3px 10px rgba(0,0,0,0.5);*/
 	outline: none;
 }
 
 .btn_at:hover{
 	box-shadow: 3px 3px 10px rgba(0,0,0,0.5) , -3px -3px 10px rgba(0,0,0,0.5);
-	/*background: rgba(128,189,255,0.5);*/
 	cursor: pointer;
-
 }
 
 .btn_at:active{
-
 	transform: scale(0.9);
 	box-shadow: none;
-
 }

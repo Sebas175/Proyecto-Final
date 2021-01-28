@@ -2,7 +2,9 @@
 @import url("estructura.css");
 @import url("menu_v.css");
 @import url("menu_h.css");
-@import url("asistencia_tecnica.css");
+@import url("registro.css");
 @import url("media-query812.css");
 @import url("media-query570.css");
 @import url("media-query-at.css");
+@import url("citas.css");
+@import url("citas-admin.css");
